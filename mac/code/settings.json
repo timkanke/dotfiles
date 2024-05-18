@@ -1,0 +1,139 @@
+{
+  "workbench.colorTheme": "Correia Gruvbox Theme",
+  "markdownlint.config": {
+    "MD013": false,
+    "MD014": false,
+    "MD029": false,
+    "MD046": {
+      "style": "fenced"
+    }
+  },
+  "editor.wordWrap": "on",
+  "plantuml.exportFormat": "svg",
+  "plantuml.exportOutDir": ".",
+  "plantuml.exportSubFolder": false,
+  "editor.indentSize": "tabSize",
+  "[python]": {
+    "editor.formatOnType": true
+  },
+  "terminal.integrated.defaultProfile.osx": "zsh",
+  "terminal.integrated.profiles.osx": {
+    "bash": {
+      "path": "bash",
+      "args": [
+        "-l"
+      ]
+    }
+  },
+  "terminal.integrated.automationProfile.osx": {},
+  "terminal.external.osxExec": "iTerm.app",
+  "terminal.integrated.fontFamily": "'ComicCode Nerd Font'",
+  "terminal.integrated.inheritEnv": false,
+  "editor.fontFamily": "'ComicCode Nerd Font', Menlo, Monaco, 'Courier New', monospace",
+  "git.confirmSync": false,
+  "vim.easymotion": true,
+  "vim.incsearch": true,
+  "vim.useSystemClipboard": true,
+  "vim.hlsearch": true,
+  "vim.insertModeKeyBindings": [
+    {
+      "before": [
+        "j",
+        "j"
+      ],
+      "after": [
+        "<Esc>"
+      ]
+    }
+  ],
+  "vim.leader": "<space>",
+  "vim.handleKeys": {
+    "<C-a>": false,
+    "<C-f>": false
+  },
+  "vim.normalModeKeyBindingsNonRecursive": [
+    {
+      "before": [
+        ":"
+      ],
+      "commands": [
+        "workbench.action.showCommands"
+      ]
+    }
+  ],
+  "vim.visualModeKeyBindingsNonRecursive": [
+    {
+      "before": [
+        ">"
+      ],
+      "commands": [
+        "editor.action.indentLines"
+      ]
+    },
+    {
+      "before": [
+        "<"
+      ],
+      "commands": [
+        "editor.action.outdentLines"
+      ]
+    },
+    {
+      "before": [
+        "p"
+      ],
+      "after": [
+        "p",
+        "g",
+        "v",
+        "y"
+      ]
+    }
+  ],
+  "vim.statusBarColorControl": true,
+  "vim.statusBarColors.normal": [
+    "#83A598",
+    "#000"
+  ],
+  "vim.statusBarColors.insert": [
+    "#8EC07C",
+    "#000"
+  ],
+  "vim.statusBarColors.visual": [
+    "#FABD2F",
+    "#000"
+  ],
+  "vim.statusBarColors.visualline": [
+    "#FABD2F",
+    "#000"
+  ],
+  "vim.statusBarColors.visualblock": [
+    "#FABD2F",
+    "#000"
+  ],
+  "vim.statusBarColors.replace": "#D08770",
+  "vim.statusBarColors.commandlineinprogress": "#007ACC",
+  "vim.statusBarColors.searchinprogressmode": "#007ACC",
+  "vim.statusBarColors.easymotionmode": "#007ACC",
+  "vim.statusBarColors.easymotioninputmode": "#007ACC",
+  "vim.statusBarColors.surroundinputmode": "#007ACC",
+  "workbench.editor.enablePreview": false,
+  "editor.formatOnSave": true,
+  "githubPullRequests.pullBranch": "never",
+  "editor.minimap.enabled": false,
+  "ruff.lint.run": "onSave",
+  "python.autoComplete.extraPaths": [],
+  "python.analysis.extraPaths": [],
+  "explorer.confirmDragAndDrop": false,
+  "liveServer.settings.donotShowInfoMsg": true,
+  "explorer.confirmDelete": false,
+  "workbench.colorCustomizations": {
+    "statusBar.background": "#8EC07C",
+    "statusBar.noFolderBackground": "#8EC07C",
+    "statusBar.debuggingBackground": "#8EC07C",
+    "statusBar.foreground": "#000",
+    "statusBar.debuggingForeground": "#000"
+  },
+  "window.zoomLevel": 1,
+  "git.ignoreRebaseWarning": true,
+}
